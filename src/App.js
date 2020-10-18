@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import "./App.css";
+import logo from './logo.png';
 
 class App extends React.Component {
   constructor(props){
@@ -161,11 +162,7 @@ class App extends React.Component {
         </div>
         <div className='content'>
           <div>
-            <button 
-            className='addToDO'
-            onClick={this.addToDO}>  
-             ADD
-            </button>
+            <img src={logo} height='30' width='30' className='addToDO' onClick={this.addToDO} />
             <span>
               <input
                 id='input-text'
