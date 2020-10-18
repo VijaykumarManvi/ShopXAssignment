@@ -44,14 +44,15 @@ body {
 .content {
   background-color: white;
   width: 100%;
+  position: relative;
 }
 
 #input-text {
-  margin-left: 7px;
+  margin-left: 14px;
   width: 91%;
   height: 50px;
   border-style: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 input:focus {
@@ -68,15 +69,13 @@ li {
   height: 60px;
   border-bottom: 1px solid gray;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 100;
 }
 
 .addToDO {
-  margin-left: 2px;
-  padding: 7px 9px;
-  font-weight: bold;
-  border-radius: 5px solid transparent;
+  margin-left: 20px;
+  margin-top: 12px;
 }
 
 .check-box {
@@ -87,5 +86,5 @@ li {
 
 .remove {
   float: right;
-  margin: 6px 10px 0 0;
+  margin: 10px 10px 0 0;
 }
